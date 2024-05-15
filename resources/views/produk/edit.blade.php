@@ -75,7 +75,7 @@
 
             <div class="mb-2">
                 <label for="gambar" class="block mb-2 text-sm font-medium text-gray-900">Gambar Produk</label>
-                <img src="{{ asset('storage/'. $product->gambar) }}">
+                <img src="{{ asset('storage/public/products/'. $product->gambar) }}">
                 <input id="gambar" name="gambar" type="file" 
                     class="mt-2 block w-full text-sm border  rounded-md cursor-pointer text-gray-400 focus:outline-none bg-gray-700 border-gray-600 placeholder-gray-400">
                 @error('gambar')
