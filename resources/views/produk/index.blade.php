@@ -73,7 +73,7 @@
                         {{ $product->deskripsi }}
                     </td>
                     <td class="px-6 py-4">
-                        <img src="{{ asset('storage/'. $product->gambar) }}">
+                        <img src="{{ asset('storage/public/products/'. $product->gambar) }}">
                     </td>
                     <td class="px-6 py-4">
                         <a href="{{ route('edit', $product->id) }}" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
